@@ -1,0 +1,93 @@
+body{
+    background-image: url('book1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+.one{
+    border: 5px solid red;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 8px 32px 0 rgba(31,38,35,37);
+
+}
+.one h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    color:black;
+    margin: 10px;
+    margin-left: 20%;
+    text-shadow: 2px 2px 2px 8px solid black;
+}
+ul li {
+    display:inline-block;
+    margin: 0 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+}
+ ul{
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+    display: flex;
+ }
+ ul a{
+    color:black;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px 10px solid black;
+ }
+ ul a:hover{
+    color:red;
+ }
+ .two input{
+    width:50%;
+    margin: 2% auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    text-align: center;
+    border: none;
+}
+.two input ::placeholder{
+    color: blue;
+}
+.three{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.books{
+    text-align: center;
+    width:14%;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border: 5px solid red;
+    padding: 7px;
+    border-radius: 10px;
+    
+}
+.books img{
+    display: block;
+    margin: 0 auto;
+    width:170px;
+    height: 250px;
+    object-fit: cover;
+}
+.books button{
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    font-size: 14px;
+    border:3px solid black;
+    border-radius: 10px;
+}
